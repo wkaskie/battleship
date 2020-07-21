@@ -1,0 +1,25 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "Practice for a coding challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "dev": "babel src -d "
+  },
+  "keywords": [
+    "test",
+    "node",
+    "battleship"
+  ],
+  "author": "Wayne F. Kaskie, Sr.",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
