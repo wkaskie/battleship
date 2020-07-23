@@ -27,7 +27,7 @@ const setStartPoints = (gridSize = gridDim) => { // return the top of the vertic
             console.log(row, col, locationSum);
         }
         for (let r = row; r < row + sizeOfPieces; r++) {
-            console.log(`Setting ${r}, ${col} to ${indx + 1}`);
+            // console.log(`Setting ${r}, ${col} to ${indx + 1}`);
             gameBoard[r][col] = indx + 1;
         }
         // For horizontal pieces
