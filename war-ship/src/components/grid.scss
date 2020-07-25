@@ -1,0 +1,19 @@
+.Grid {
+  display: flex;
+  flex-basis: 100px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  position: relative;
+
+  &__row {
+    display: flex;
+    width: 100%;
+  }
+
+  &__block {
+    padding: 1rem;
+    border: 1px solid gray;
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}

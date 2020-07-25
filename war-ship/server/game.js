@@ -46,6 +46,7 @@ const setStartPoints = (gridSize = gridDim) => { // return the top of the vertic
 const init = (gridSize = gridDim) => {
     gameBoard = Array.from(new Array(gridSize)).map(() => Array.from(new Array(gridSize).fill(0)));
     setStartPoints();
+    return gameBoard;
 }
 
 const checkHit = (xCord, yCord) => gameBoard[xCord][yCord] !== 0;
